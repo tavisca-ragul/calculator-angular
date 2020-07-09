@@ -1,0 +1,13 @@
+<div class="main">
+    <div class="calculator-container">
+        <div class="display">
+            <app-display [statement]="this.statement"></app-display>
+        </div>
+        <div>
+            <app-keyboard [operands]="this.operands" [operators]="this.operators"></app-keyboard>
+        </div>    
+    </div>
+    <div class="history-container">
+        <app-histories [histories]="this.histories"></app-histories>
+    </div>
+</div>
