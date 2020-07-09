@@ -1,3 +1,15 @@
+# Components I have used :
+    AppComponent,
+    DisplayComponent,
+    HistoriesComponent,
+    HistoryComponent,
+    KeyboardComponent,
+    OperandKeyComponent,
+    OperatorKeyComponent,
+    CalculatorComponent
+  All the components are resuable. 
+  Used Services and custom data types (Model).
+
 # Calculator
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.28.
